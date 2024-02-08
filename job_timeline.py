@@ -24,7 +24,7 @@ for i, item in enumerate(timeline_data):
     timeline_data[i][2] = end_date
 
 # Generate the timeline with distinct colors for each job
-colors = plt.cm.get_cmap('tab20', len(timeline_data))
+colors = plt.cm.get_cmap('Dark2', len(timeline_data))
 
 fig, ax = plt.subplots(figsize=(10, 8))
 
